@@ -1,4 +1,3 @@
-
 const screen = document.querySelector('.screen');
 
 function appendToDisplay(input) {
@@ -6,18 +5,13 @@ function appendToDisplay(input) {
     
 }
 
-
-
 function clean() {
    screen.value = "";
 }
 
-
-
 function clear(){
     screen.value = "";
 }
-
 
 function calculate() {
     try {
