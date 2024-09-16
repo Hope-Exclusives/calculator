@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  height: 32rem;
+  width: 20rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.938);
+}
+
+.screen{
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  padding-left: 0.2rem;
+  overflow-x: scroll;
+}
+
+
+
+.body .screen {
+  background-color: aliceblue;
+  width: 70%;
+  height: 4rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 3rem;
+}
+
+.body .btn-sec {
+  position: absolute;
+  top: 12rem;
+  width: 70%;
+}
+
+.body .btn-sec .col {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  align-items: start;
+}
+
+button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+}
+
+.one button {
+  background-color: rgb(224, 165, 0);
+}
